@@ -39,7 +39,7 @@ def processData(data):
 
 #Main UI
 ttk.Label(frame, text="Input Data:").grid(column=0, row=0) #Input Data Label
-runEntry = ttk.Button(frame, text="Enter", command=processInputBox).grid(column=0, row=1) #Enter Button
+ttk.Button(frame, text="Enter", command=processInputBox).grid(column=0, row=1) #Enter Button
 
 statusText = ttk.Label(frame, text="Ready") #Status Text
 statusText.grid(column=1, row=1)
